@@ -1,0 +1,22 @@
+<div class="page1">
+  <h1>Page 1</h1>
+
+  <div style="display: flex">
+    <button (click)="incrementCounterOnService1()">Counter++</button>
+    <h2>{{ service1Message }}</h2>
+  </div>
+
+  <div style="display: flex">
+    <button (click)="incrementCounterOnService2()">Counter++</button>
+    <h2>{{ service2Message }}</h2>
+  </div>
+
+  <div style="display: flex">
+    <button (click)="incrementCounterOnService1Dependency()">Counter++</button>
+    <h2>{{ service1DependencyMessage }}</h2>
+  </div>
+
+  <app-widget1></app-widget1>
+
+  <app-widget2></app-widget2>
+</div>
